@@ -1,0 +1,228 @@
+@media screen and (min-width: 1980px){
+    .banner{
+        width: 100%;
+        display: block;
+    }
+
+    .logo{
+        width: 100%;
+    }
+
+    .btn-outline{
+        width: 90%;
+        float: none;
+        display: block;
+    }
+
+    .cards{
+        width: 50%;
+        float: none;
+        display: block;
+    }
+
+    .card{
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    .image{
+        max-width: 100%;
+    }
+}
+
+
+.logo{
+    width:300px;
+}
+.btn-outline{
+    background-color: #189279;
+}
+
+.banner{
+    width: 100%;
+    height: 390px;
+    align-items: center;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.noscroll { 
+    overflow: hidden;
+ }
+
+.banner{
+    background-image: url(images/bg12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    align-items: center;
+    width: 100% !important;
+    
+
+    
+}
+
+.banner-tag{ 
+    color:black;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width:55%;
+    padding-left: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.banner-tag1{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-left: 500px;
+    color:black;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.heading{
+    font-size: 28px;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.image{
+    margin-top: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+}
+
+.cards{
+    box-sizing: border-box;
+    border: 1px solid silver;
+    height: 600px;
+    width: 1200px;
+    margin-left: 40px;
+    box-shadow: 0px 3px 6px 2px rgb(201, 200, 200);
+    margin-top: 130px;
+    list-style: 29px;
+    background-color: white;
+    text-align: center;
+    
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+
+ .card-text{
+     margin-right: 24px;
+     align-items: center;
+ }
+ 
+ .row > div[class*='col-'] {
+   display: flex;
+    margin-left: 80px;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+ }
+
+ .card-body{
+     width: 310px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     height: 10px;
+     align-items: center;
+     
+ }
+
+
+ .card1{
+     width: 900px;
+     margin-left: 200px;
+     box-sizing: border-box;
+     border: 1px solid silver;
+     height: 150px;
+     margin-top: 690px;
+     border-radius: 4px;
+     background-color: #f5f5f5;
+     text-align: center;
+
+ }
+
+ .card-title1{
+    font-size: x-large;
+    font-weight: lighter;
+    text-align: center;
+ }
+
+
+.input-group{
+    width: 720px;
+    margin-left: 60px;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.card-text{
+    margin-left:1px;
+}
+
+.btn-outline-secondary{
+    color: black;
+    background-color: #189279;
+    font-weight: lighter;
+}
+
+.btn-toolbar{
+    margin-top: 50px;
+    margin-left: 580px;
+}
+
+.btn-outline1{
+    font-weight: 600;
+    color:black;
+    background-color: #189279;
+}
+
+.btn-secondary{
+    background-color: #189279;
+}
+
+a:hover{
+    text-decoration:none;
+}
+.section-padding {
+    padding: 60px 0;
+    margin-top: 70px;
+}
+.bottom {
+    background-color: #0a1c2e;
+}
+
+.copy{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 300px;
+    text-align: center;
+}
+
+.card{
+    height: 460px;
+}
+
+.input-group{
+    margin-top: 30px;
+}
