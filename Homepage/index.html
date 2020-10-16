@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="theme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <div class="row">
+      <div class="col-12">
+      <nav class="navbar navbar-expand">
         <img  class="logo" src="./Bitfex-logo (1).png" alt="logo">
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
@@ -27,6 +30,10 @@
            </ul>
         </div>
       </nav>
+    </div>
+  </div>
+      <div class="row">
+        <div class="col-12">
       <div class="banner">
           <h1>
               <span>
@@ -40,6 +47,10 @@
             SPREADS</p>
             <button type="button" class="btn btn-success" style="margin-left: 120px;">VIEW TRADE</button>
      </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-8">
      <div class="coins">
         <table class="table table-hover">
                     <thead class="head">
@@ -98,14 +109,19 @@
                       </tbody>
                   </table>
             </div> 
-            <br>
-            <div>
-                <h2 class="contract">
-                    <strong>Contract Tyes</strong>
-                </h2>
-                <p style="margin-left: 440px; font-weight: bolder;">Trade three different types of Bitcoin Contracts with leverage.<br>
-                    &nbsp; &nbsp;Contracts for more cryptocurrencies launching soon!</p>
             </div>
+            </div>
+
+            <br>
+            <div class="row">
+              <div class="col-8">
+                <h2 class="contract">
+                    <strong>Contract Types</strong>
+                </h2>
+                <p class="tag">Trade three different types of Bitcoin Contracts with leverage.
+                   &nbsp; &nbsp;Contracts for more cryptocurrencies launching soon!</p>
+            </div>
+          </div>
             <br>
             <div class="card-group" style="height: 200px !important; margin-top: 4px;">
                 <div class="card">
@@ -129,10 +145,12 @@
                     <p class="card-text">Low-risk trading instruments to easily trade the price difference of underlying futures and perpetual contracts. Introduced for the first time in crypto.</p>
                   </div>
                 </div>
-              </div>
+            </div>
               <br>
               <br>
               <br>
+            <div class="row">
+                <div class="col-8">
               <div class="why">
                   <h5 class="caption">
                       <strong>Why Bitfex</strong>
@@ -178,8 +196,10 @@
                     </div>
                   </div>
               </div>
+              </div>
+            </div>
               <br>
-              <footer class="footer">
+          <footer class="footer">
                   <h5 class="start">
                       Start trading now
                   </h5>
@@ -188,11 +208,7 @@
                   <button type="button" class="btn btn-outline-dark btn-lg" style="border-color: #189279; color: white;"> Trade Now</button>
                   <br>
                   <br>
-              
-              
-              
-              
-                </footer>
+            </footer>
               
 </body>
 </html>
