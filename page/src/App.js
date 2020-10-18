@@ -9,14 +9,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="card w-100">
-      <div className="banner">
-      <img src={logo} className="logo" alt="logo"/>
-        <a href="#" className="btn btn-success">Account</a>
-        <a href="#" className="btn btn-success">Help</a>
-        <p className="banner-tag">WE WANT TO MEET YOUR FRIENDS AND FAMILY</p>
-        <p className="banner-tag1">REFER AND EARN</p>
-      </div>
+        <div>
       <Main />
     </div>
     );
